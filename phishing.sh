@@ -73,24 +73,19 @@ kill_pid() {
 ## Banner
 banner() {
 	cat <<- EOF
-                ${ORANGE}
-		${ORANGE}╦ ╦┌─┐┌─┐┬┌─┌─┐┬─
-                ${ORANGE}╠═╣├─┤│  ├┴┐├┤ ├┬┘
-                ${ORANGE}╩ ╩┴ ┴└─┘┴ ┴└─┘┴└─
+                
                                    ${RED}Version : 7.9
 
 		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by {PG-122} (PRINCE GUTIERREZ)${WHITE}
                 ${GREEN}[${WHITE}-${GREEN}]${CYAN} THIS TOOL CODED BY PRINCE GUTIERREZ
+                ${GREEN}[${WHITE}-${GREEN}]${CYAN} Hi I AM PRINCE GUTIERREZ I AM IN PHILLIPINES FILIPINO HACKER I AM 11 YEARS OLD
 	EOF
 }
 
 ## Small Banner
 banner_small() {
 	cat <<- EOF
-                ${ORANGE}
-		${ORANGE}╦ ╦┌─┐┌─┐┬┌─┌─┐┬─
-                ${ORANGE}╠═╣├─┤│  ├┴┐├┤ ├┬┘
-                ${ORANGE}╩ ╩┴ ┴└─┘┴ ┴└─┘┴└─
+                
                                    ${RED}Version :7.9	
 EOF
 }
