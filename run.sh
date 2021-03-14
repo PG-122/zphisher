@@ -17,9 +17,14 @@
 
 ## If you Copy Then Give the credits :)
 
+printf "\e[1;92m PLEASE LOGIN [USERNAME:prince] & [PASSWORD:hacker59]
 
+user = raw_input('USERNAME         : ')
+import getpass
+password = raw_input('PASSWORD     : ')
+if password == 'hacker59' and user == 'prince':
 
-
+printf "\e[1;92m YOU HAVE SUCCESSFULLY LOGIN TO THIS SCRIPT\e[0m\n"
 
 ## ANSI colors (FG & BG)
 RED="$(printf '\033[31m')"  GREEN="$(printf '\033[32m')"  ORANGE="$(printf '\033[33m')"  BLUE="$(printf '\033[34m')"
