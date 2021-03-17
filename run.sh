@@ -1,30 +1,16 @@
 #!/bin/bash
+## coded by:PG-59
+## v7.9
+## github :https://github.com/PG-59
 
-##   Zphisher 	: 	Automated Phishing Tool
-##   Author 	: 	PRINCE GUTIERREZ 
-##   Version 	: 	7.9
-##   Github 	: 	https://github.com/PG-122
-
-##   THANKS TO :
-##   Aditya Shakya - https://github.com/adi1090x
-##   Moises Tapia - https://github.com/MoisesTapia
-##   TheLinuxChoice - https://twitter.com/linux_choice
-##   DarksecDevelopers  - https://github.com/DarksecDevelopers
-##   Ignitetch  - https://github.com/Ignitetch/AdvPhishing
-##   Võ Ngọc Bảo - https://github.com/vongocbao
-
-
-
-## If you Copy Then Give the credits :)
-
-printf "\e[1;92m PLEASE LOGIN [USERNAME:prince] & [PASSWORD:hacker59]
+printf "\e[1;20m PLEASE LOGIN [USERNAME:prince] & [PASSWORD:hacker59]
 
 user = raw_input('USERNAME         : ')
 import getpass
 password = raw_input('PASSWORD     : ')
 if password == 'hacker59' and user == 'prince':
 
-printf "\e[1;92m YOU HAVE SUCCESSFULLY LOGIN TO THIS SCRIPT\e[0m\n"
+printf "\e[1;21m YOU HAVE SUCCESSFULLY LOGIN TO THIS SCRIPT\e[0m\n"
 
 ## ANSI colors (FG & BG)
 RED="$(printf '\033[31m')"  GREEN="$(printf '\033[32m')"  ORANGE="$(printf '\033[33m')"  BLUE="$(printf '\033[34m')"
@@ -78,6 +64,9 @@ kill_pid() {
 ## Banner
 banner() {
 	cat <<- EOF
+        ${ORANGE} █▀▀█ █░░█ ░▀░ █▀▀ █░░█ ░▀░ █▀▀▄ █▀▀▀
+        ${ORANGE} █░░█ █▀▀█ ▀█▀ ▀▀█ █▀▀█ ▀█▀ █░░█ █░▀█
+        ${ORANGE} █▀▀▀ ▀░░▀ ▀▀▀ ▀▀▀ ▀░░▀ ▀▀▀ ▀░░▀ ▀▀▀▀
                 
                                    ${RED}Version : 7.9
 
@@ -90,10 +79,14 @@ banner() {
 ## Small Banner
 banner_small() {
 	cat <<- EOF
-                
-                                   ${RED}Version :7.9	
-EOF
+        ${ORANGE} █▀▀█ █░░█ ░▀░ █▀▀ █░░█ ░▀░ █▀▀▄ █▀▀▀
+        ${ORANGE} █░░█ █▀▀█ ▀█▀ ▀▀█ █▀▀█ ▀█▀ █░░█ █░▀█
+        ${ORANGE} █▀▀▀ ▀░░▀ ▀▀▀ ▀▀▀ ▀░░▀ ▀▀▀ ▀░░▀ ▀▀▀▀ ${RED}Version :7.9
+                      
+                                          ${	
+	EOF
 }
+
 
 ## Dependencies
 dependencies() {
@@ -190,9 +183,8 @@ about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
 		${GREEN}Author   ${RED}:  ${ORANGE}PRINCE GUTIERREZ ${RED}[ ${ORANGE}PG-122 ${RED}]
-		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/PG-122
-		${GREEN}Social   ${RED}:  ${CYAN}https://linktr.ee/prince.gutierrez
-		${GREEN}Version  ${RED}:  ${ORANGE}7.9
+		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/PG-59
+		${GREEN}Version  ${RED}:  ${BLUE}7.9
 
 		${REDBG}${WHITE} Thanks : Adi1090x,MoisesTapia,DarkSecDevelopers,Thelinuxchoice ${RESETBG}
 
